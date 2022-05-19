@@ -1,0 +1,15 @@
+#include <studio.h>
+
+int main(){
+int x;
+printf("enter the natural number: ");
+scanf_s("%d", &x);
+
+if((x >= -6) && (x <= -2)){
+  printf("number is IN interval (-6; -2)");
+}
+else {
+  printf("number is NOT in interval (-6; -2)");
+}
+return 0;
+}
